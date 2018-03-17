@@ -81,13 +81,13 @@ axios.interceptors.response.use(
  */
 import Echo from 'laravel-echo';
 
-if (Laravel.env == 'production' && Laravel.pusher.key.trim()) {
+if (Laravel.env == 'local' && Laravel.pusher.key.trim()) {
     window.Echo = new Echo({
         broadcaster: 'pusher',
         key: Laravel.pusher.key,
         cluster: Laravel.pusher.cluster
     });
-} else if (Laravel.env == 'local' && Laravel.echo.bearerToken.trim()) {
+} else if (Laravel.env == 'production' && Laravel.echo.bearerToken.trim()) {
     window.Echo = new Echo({
         broadcaster: 'socket.io',
         host: Laravel.echo.host + ':' + Laravel.echo.port,
