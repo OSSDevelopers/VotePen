@@ -26,7 +26,7 @@ jobs:
       
       - run:
           name: Install GD library 
-          command: sudo apt-get install -y libfreetype6-dev libjpeg62-turbo-dev libpng-dev && sudo docker-php-ext-configure gd --with-freetype-dir=/usr/include/ --with-jpeg-dir=/usr/include/ && sudo docker-php-ext-install -j$(nproc) gd
+          command: sudo apt-get install -y libfreetype6-dev libjpeg62-turbo-dev libpng-dev && sudo docker-php-ext-configure gd --with-freetype-dir=/usr/include/ --with-jpeg-dir=/usr/include/ && sudo docker-php-ext-install -j$(nproc) gd && sudo docker-php-ext-enable xdebug
 
       - run:
          name: Setup Laravel testing environment variables for CircleCI test
@@ -55,7 +55,13 @@ jobs:
           key: dependency-cache-{{ checksum "package.json" }}
           paths:
             - ./node_modules
-        
+
+      - run:
+          name: Setup Code Climate test-reporter
+          command: |
+            curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+            chmod +x ./cc-test-reporter
+
       # run tests!
       - run: touch database/database.sqlite
       - run: php artisan key:generate
@@ -69,19 +75,8 @@ jobs:
       - run: vendor/bin/phpunit
 
       - run:
-          name: Setup dependencies
-          command: |
-            sudo composer self-update
-            composer install -n --prefer-dist
-      - run:
-          name: Setup Code Climate test-reporter
-          command: |
-            curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
-            chmod +x ./cc-test-reporter
-      - run:
           name: Run tests
           command: |
-            sudo docker-php-ext-enable xdebug
             ./cc-test-reporter before-build
             sudo vendor/bin/phpunit --coverage-clover clover.xml
             ./cc-test-reporter after-build --coverage-input-type clover --exit-code $?
