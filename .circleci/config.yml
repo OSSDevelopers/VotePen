@@ -1,20 +1,19 @@
-# PHP CircleCI 2.0 configuration file
-#
-# Check https://circleci.com/docs/2.0/language-php/ for more details
-#
 version: 2
 jobs:
   build:
     docker:
       # specify the version you desire here
       - image: circleci/php:7.1-cli
-
-      # Specify service dependencies here if necessary
-      # CircleCI maintains a library of pre-built images
-      # documented at https://circleci.com/docs/2.0/circleci-images/
-      # - image: circleci/mysql:9.4
-
       - image: redis
+
+    machine:
+      environment:
+        CC_TEST_REPORTER_ID: 412c4da52cffde5bdb35f533234663ddde70e910094a727b70ba66fedc0fda24
+
+    dependencies:
+      post:
+        - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+        - chmod +x ./cc-test-reporter
 
     working_directory: ~/laravel
 
@@ -74,3 +73,10 @@ jobs:
          background: true
 
       - run: vendor/bin/phpunit
+
+      test:
+        pre:
+          - ./cc-test-reporter before-build
+
+        post:
+          - ./cc-test-reporter after-build --exit-code $EXIT_CODE
