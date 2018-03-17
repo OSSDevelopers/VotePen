@@ -167,7 +167,7 @@ class ChannelController extends Controller
         $channel = Channel::create([
             'name'        => $request->name,
             'description' => $request->description,
-            'nsfw'        => $request->nsfw,
+            'nsfw'        => $request->input('nsfw', 0),
             'avatar'      => 'https://cdn.jsdelivr.net/npm/cdn-votepen@1.0.0/imgs/channel-avatar.png',
             'color'       => 'Blue',
         ]);
