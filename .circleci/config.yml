@@ -6,14 +6,8 @@ jobs:
       - image: circleci/php:7.1-cli
       - image: redis
 
-    machine:
-      environment:
-        CC_TEST_REPORTER_ID: 412c4da52cffde5bdb35f533234663ddde70e910094a727b70ba66fedc0fda24
-
-    dependencies:
-      post:
-        - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
-        - chmod +x ./cc-test-reporter
+    environment:
+      CC_TEST_REPORTER_ID: 412c4da52cffde5bdb35f533234663ddde70e910094a727b70ba66fedc0fda24
 
     working_directory: ~/laravel
 
@@ -74,9 +68,20 @@ jobs:
 
       - run: vendor/bin/phpunit
 
-      test:
-        pre:
-          - ./cc-test-reporter before-build
-
-        post:
-          - ./cc-test-reporter after-build --exit-code $EXIT_CODE
+      - run:
+          name: Setup dependencies
+          command: |
+            sudo composer self-update
+            composer install -n --prefer-dist
+      - run:
+          name: Setup Code Climate test-reporter
+          command: |
+            curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+            chmod +x ./cc-test-reporter
+      - run:
+          name: Run tests
+          command: |
+            sudo docker-php-ext-enable xdebug
+            ./cc-test-reporter before-build
+            sudo vendor/bin/phpunit --coverage-clover clover.xml
+            ./cc-test-reporter after-build --coverage-input-type clover --exit-code $?
