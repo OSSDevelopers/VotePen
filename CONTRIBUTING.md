@@ -5,10 +5,10 @@
 
 Before submitting a new GitLab issue, please make sure to
 
-- Check out the README pages on [this repo](https://gitlab.com/VotePen/Platform)
-- Search for [existing GitLab issues](https://gitlab.com/VotePen/Platform/issues)
+- Check out the README pages on [this repo](https://gitlab.com/VotePen/VotePen)
+- Search for [existing GitLab issues](https://gitlab.com/VotePen/VotePen/issues)
 
-If the above doesn't help, please [submit an issue](https://gitlab.com/VotePen/Platform/issues) on GitLab and provide information about your setup.
+If the above doesn't help, please [submit an issue](https://gitlab.com/VotePen/VotePen/issues) on GitLab and provide information about your setup.
 
 **Note**: If you want to report a regression in _VotePen_ (something that has worked before, but broke with a new release), please mark your issue title as such using `[Regression] Your title here`. This enables us to quickly detect and fix regressions.
 
@@ -24,7 +24,7 @@ Thanks! We would really appreciate the help!
 
 ## Reporting new issues
 
-When [opening a new issue](https://github.com/VotePen/Platform/issues/new), always make sure to fill out the [issue template](https://raw.githubusercontent.com/VotePen/Platform/master/.github/ISSUE_TEMPLATE.md). **This step is very important!** Not doing so may result in your issue not managed in a timely fashion. Don't take this personally if this happens, and feel free to open a new issue once you've gathered all the information required by the template.
+When [opening a new issue](https://github.com/VotePen/VotePen/issues/new), always make sure to fill out the [issue template](https://raw.githubusercontent.com/VotePen/VotePen/master/.github/ISSUE_TEMPLATE.md). **This step is very important!** Not doing so may result in your issue not managed in a timely fashion. Don't take this personally if this happens, and feel free to open a new issue once you've gathered all the information required by the template.
 
 * **One issue, one bug:** Please report a single bug per issue.
 * **Provide reproduction steps:** List all the steps necessary to reproduce the issue. The person reading your bug report should be able to follow these steps to reproduce your issue with minimal effort.
