@@ -72,8 +72,6 @@ jobs:
          command: php artisan serve
          background: true
 
-      - run: vendor/bin/phpunit
-
       - run:
           name: Run tests
           command: |
