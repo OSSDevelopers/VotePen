@@ -5,7 +5,7 @@ Route::redirect('/api', 'https://api.votepen.com', 301);
 Route::redirect('/help', 'https://help.votepen.com', 301);
 Route::redirect('/help-center', 'https://help.votepen.com', 301);
 Route::redirect('/source-code', 'https://github.com/VotePen/VotePen', 301);
-Route::redirect('/blog', 'https://medium.com/VotePen', 301);
+Route::redirect('/blog', 'https://blog.votepen.com', 301);
 Route::redirect('/dev', '/c/VotePenDev', 301);
 Route::redirect('/developers', '/c/VotePenDev', 301);
 
