@@ -7,13 +7,13 @@
                 </h1>
 
                 <div class="flex-center">
-                    <router-link to="https://cdn.jsdelivr.net/npm/cdn-votepen@1.0.0/tos" class="margin-right-1">
+                    <router-link to="/tos" class="margin-right-1">
                         <el-button round size="medium" type="text">Terms of Service</el-button>
                     </router-link>
-                    <router-link to="https://cdn.jsdelivr.net/npm/cdn-votepen@1.0.0/privacy-policy" class="margin-right-1">
+                    <router-link to="/privacy-policy" class="margin-right-1">
                         <el-button round size="medium" type="text">Privacy Policy</el-button>
                     </router-link>
-                    <router-link to="https://cdn.jsdelivr.net/npm/cdn-votepen@1.0.0/credits">
+                    <router-link to="/credits">
                         <el-button round size="medium" type="text">Credits</el-button>
                     </router-link>
                 </div>
