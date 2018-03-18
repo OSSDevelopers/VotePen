@@ -80,15 +80,6 @@
 								   class="item"
 								   target="_blank">Blog</a>
 							</li>
-							<li>
-								<router-link to="/credits"
-								             class="item">Credits</router-link>
-							</li>
-							<li>
-								<a href="https://github.com/VotePen/VotePen"
-								   class="item"
-								   target="_blank">Source code</a>
-							</li>
 						</div>
 					</el-collapse-transition>
 
