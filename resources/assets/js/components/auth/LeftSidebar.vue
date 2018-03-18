@@ -151,7 +151,7 @@
 				<a class="item"
 				   href="/backend"
 				   target="_blank">
-					<i class="el-icon-service"
+					<i class="v-icon v-dashboard"
 					   aria-hidden="true"></i>
 				</a>
 			</el-tooltip>
