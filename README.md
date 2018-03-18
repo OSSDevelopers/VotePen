@@ -35,4 +35,4 @@ Thank you for considering contributing to the VotePen. Here's a list of things y
 
 ## API
 
-VotePen's public API is under development and will be out in February. The VotePen API will be organized around REST. It can be used to build non-automated, high-quality apps and services that interact with the platform.
+VotePen's public API is under development and will be out in April. The VotePen API will be organized around REST. It can be used to build non-automated, high-quality apps and services that interact with the platform.
