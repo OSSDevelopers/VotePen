@@ -40,4 +40,4 @@ Disallow: /discover-channels
 Allow: /sitemaps/*.xml
 Allow: /
 
-Sitemap: https://votepen.com/sitemap.xml
+Sitemap: http://votepen.tk/sitemap.xml
