@@ -81,7 +81,7 @@
                     Github
                 </a>
 
-                <a href="https://medium.com/VotePen">
+                <a href="https://blog.votepen.com">
                     Blog
                 </a>
             </div>
