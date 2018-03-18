@@ -123,15 +123,10 @@
 				<router-link to="/credits">Credits</router-link>
 			</li>
 			<li>
-				<a href="mailto:info@votepen.com">Contact</a>
-			</li>
-			<li>
 				<a href="mailto:press@votepen.com">Press</a>
 			</li>
-			<li>
-				<a href="https://github.com/VotePen/VotePen"
-				   target="_blank">Source code</a>
-			</li>
+			<li class="item go-green"
+					    @click="Store.modals.feedback.show = true">Contact</li>
 		</ul>
 	</div>
 </template>
