@@ -9,7 +9,7 @@
   </p>
 </p>
 
-# [VotePen.com](https://votepen.com) [![CircleCI](https://img.shields.io/circleci/project/github/VotePen/VotePen.svg)](https://circleci.com/gh/VotePen/VotePen/tree/master) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/9174398c5cd14963aead24f2c867cf05)](https://app.codacy.com/app/Votepen/VotePen?utm_source=github.com&utm_medium=referral&utm_content=VotePen/VotePen&utm_campaign=badger) [![Maintainability](https://api.codeclimate.com/v1/badges/c18908dfc0a781b1d07d/maintainability)](https://codeclimate.com/github/VotePen/VotePen/maintainability)
+# [VotePen.com](https://votepen.com) [![CircleCI](https://img.shields.io/circleci/project/github/VotePen/VotePen.svg)](https://circleci.com/gh/VotePen/VotePen/tree/master) [![Maintainability](https://api.codeclimate.com/v1/badges/c18908dfc0a781b1d07d/maintainability)](https://codeclimate.com/github/VotePen/VotePen/maintainability)
 
 [VotePen](https://votepen.com) is a place to Share, upvote, and discuss the best of the internet. To get a quick taste of what VotePen is written with please check our [credits page](https://votepen.com/credits).
 
