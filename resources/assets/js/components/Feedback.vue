@@ -1,5 +1,5 @@
 <template>
-	<el-dialog title="Give Feedback"
+	<el-dialog title="Contact"
 	           :visible="visible"
 	           :width="isMobile ? '99%' : '600px'"
 	           @close="close"
@@ -10,7 +10,11 @@
 			<el-form label-position="top"
 			         label-width="10px">
 				<p>
-					Please pick a subject for your feedback and tell us a few words about it. We review all feedbacks; however, we may not write back to all of them.
+					What’s in a great support request?
+					<ul>
+					    <li>Provide us with as much essential information as possible.</li>
+                        <li>Include any screenshots links that are related to your problem.</li>
+					</ul>
 				</p>
 
 				<el-form-item label="Subject">
@@ -68,13 +72,14 @@ export default {
     data() {
         return {
             sending: false,
-            subject: 'Report a bug',
+            subject: 'Get help with VotePen',
             description: '',
             subjects: [
-                'Report a bug',
-                'Thumbs-up about a feature',
-                'Suggestion',
-                'Other'
+                'Get help with VotePen',
+                'Report abuse',
+                'Report content',
+                'Copyright claims (DMCA)',
+                'Privacy concerns'
             ]
         };
     },
@@ -112,7 +117,7 @@ export default {
                     this.sending = false;
 
                     this.$message({
-                        message: 'Feedback recieved. Thanks for caring!',
+                        message: 'Your Request recieved. Thanks for contacting us!',
                         type: 'success'
                     });
 
