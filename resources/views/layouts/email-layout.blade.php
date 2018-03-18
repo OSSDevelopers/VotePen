@@ -167,7 +167,7 @@
 			<a href="https://votepen.com/login">Sign In</a>
 			<a href="https://votepen.com/help">Help Center</a>
 			<a href="https://votepen.com/tos">Terms Of Service</a>
-			<a href="https://medium.com/VotePen">Blog</a>
+			<a href="https://blog.votepen.com">Blog</a>
 			<a href="https://twitter.com/VotePen">Twitter</a>
 			<a href="https://facebook.com/VotePen">Facebook</a>
 		</div>
