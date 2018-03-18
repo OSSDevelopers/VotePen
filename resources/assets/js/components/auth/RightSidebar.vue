@@ -54,7 +54,7 @@
 					<li>
 						<a href="https://help.votepen.com/"
 						   target="_blank"
-						   class="item">Help center</a>
+						   class="item">Help</a>
 					</li>
 
 					<el-collapse-transition>
