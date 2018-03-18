@@ -64,10 +64,6 @@
 								             class="item">About</router-link>
 							</li>
 							<li>
-								<a href="mailto:info@votepen.com"
-								   class="item">Contact Us</a>
-							</li>
-							<li>
 								<router-link to="/tos"
 								             class="item">Terms of service</router-link>
 							</li>
@@ -95,7 +91,7 @@
 					<hr>
 
 					<li class="item go-green"
-					    @click="Store.modals.feedback.show = true">Give feedback</li>
+					    @click="Store.modals.feedback.show = true">Contact</li>
 					<li class="item go-red"
 					    @click="signOut">Sign Out</li>
 				</ul>
