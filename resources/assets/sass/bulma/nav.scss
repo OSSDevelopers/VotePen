@@ -97,7 +97,6 @@ a.nav-item.is-tab {
 
 .nav-item a.is-tab.is-active,
 a.nav-item.is-tab.is-active {
-    border-bottom: 3px solid $primary-color !important;
     border-top: 3px solid transparent;
     color: $primary-color;
     font-weight: 600;
