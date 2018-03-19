@@ -57,7 +57,5 @@ This project is licensed under the terms of the Apache 2.0 license. See the [LIC
 
 <!-- Links: -->
 [code of conduct]: CODE_OF_CONDUCT.md
-[core contributor]: CORE_CONTRIBUTOR.md
 [license]: LICENSE.md
-[vision]: VISION.md
 [firstpr]: https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github
