@@ -14,7 +14,7 @@ class CreateChannelsTable extends Migration
             $table->text('description');
             $table->boolean('nsfw')->default(0);
             $table->string('color')->default('Dark');
-            $table->string('avatar')->default('https://cdn.jsdelivr.net/npm/cdn-votepen@1.0.0/imgs/channel-avatar.png');
+            $table->string('avatar')->default('https://cdn.jsdelivr.net/npm/cdn-votepen@1.0.3/imgs/channel-avatar.png');
             $table->boolean('public')->default(1);
             $table->boolean('active')->default(1);
             $table->integer('subscribers')->default(1);
