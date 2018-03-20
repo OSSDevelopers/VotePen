@@ -1,6 +1,6 @@
 <p align="center">
   <p align="center">
-    <img src="https://cdn.jsdelivr.net/npm/cdn-votepen@1.0.0/imgs/votepen.png" alt="VotePen" height="72">
+    <img src="https://cdn.jsdelivr.net/npm/cdn-votepen@1.0.3/imgs/votepen.png" alt="VotePen" height="72">
   </p>
   <p align="center">
     <b>
