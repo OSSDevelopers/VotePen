@@ -12,19 +12,19 @@ class MentionUsersTest extends TestCase
     /** @test */
     public function mentioned_users_in_a_comment_are_notified()
     {
-        $john = create('App\User', ['username' => 'JohnDoe']);
+        $Yoginth = create('App\User', ['username' => 'Yoginth']);
 
-        $this->signInViaPassport($john);
+        $this->signInViaPassport($Yoginth);
 
-        $jane = create('App\User', ['username' => 'JaneDoe']);
+        $Sivaramakrishnan = create('App\User', ['username' => 'Sivaramakrishnan']);
 
         $submission = create('App\Submission'); 
 
         $this->json('POST', '/api/comments', [
-            'body' => 'Hello @JaneDoe Please take a look at this.', 
+            'body' => 'Hello @Sivaramakrishnan Please take a look at this.', 
             'submission_id' => $submission->id 
         ])->assertStatus(201);
 
-        $this->assertCount(1, $jane->notifications);
+        $this->assertCount(1, $Sivaramakrishnan->notifications);
     }
 }
