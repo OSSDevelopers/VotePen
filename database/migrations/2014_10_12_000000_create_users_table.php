@@ -13,7 +13,7 @@ class CreateUsersTable extends Migration
             $table->string('name')->nullable();
             $table->string('website')->nullable();
             $table->string('location')->nullable();
-            $table->string('avatar')->default('https://cdn.jsdelivr.net/npm/cdn-votepen@1.0.0/imgs/default-avatar.png');
+            $table->string('avatar')->default('https://cdn.jsdelivr.net/npm/cdn-votepen@1.0.3/imgs/default-avatar.png');
             $table->string('color')->default('Dark');
             $table->string('bio')->nullable();
             $table->boolean('active')->default(1); // used for banning?
