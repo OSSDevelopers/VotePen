@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'default' => env('DISK_DRIVER', 'local'),
+    'default' => env('DISK_DRIVER', 'ftp'),
 
     /*
     |--------------------------------------------------------------------------
