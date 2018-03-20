@@ -18,7 +18,7 @@ return [
     'logo'             => 'https://cdn.jsdelivr.net/npm/cdn-votepen@1.0.3/imgs/votepen.svg',
     'twitter_username' => '@VotePen',
     'twitter-url'      => 'https://twitter.com/VotePen',
-    'github_url'       => 'https://gitlab.com/VotePen/VotePen',
+    'github_url'       => 'https://github.com/VotePen/VotePen',
     'blog_url'         => 'https://blog.votepen.com',
     'cdn_url'          => 'https://cdn.jsdelivr.net/npm/cdn-votepen@1.0.3',
 
