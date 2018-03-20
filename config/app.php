@@ -15,12 +15,12 @@ return [
     'name'             => 'VotePen',
     'title'            => 'Stay Updated!',
     'description'      => 'Share, upvote, and discuss the best of what is happening on the internet.',
-    'logo'             => 'https://cdn.jsdelivr.net/npm/cdn-votepen@1.0.0/imgs/votepen.png',
+    'logo'             => 'https://cdn.jsdelivr.net/npm/cdn-votepen@1.0.3/imgs/votepen.svg',
     'twitter_username' => '@VotePen',
     'twitter-url'      => 'https://twitter.com/VotePen',
     'github_url'       => 'https://gitlab.com/VotePen/VotePen',
     'blog_url'         => 'https://blog.votepen.com',
-    'cdn_url'          => 'https://cdn.jsdelivr.net/npm/cdn-votepen@1.0.0',
+    'cdn_url'          => 'https://cdn.jsdelivr.net/npm/cdn-votepen@1.0.3',
 
     /*
     |--------------------------------------------------------------------------
