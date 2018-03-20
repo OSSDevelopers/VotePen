@@ -73,7 +73,7 @@ jobs:
          background: true
 
       - run:
-          name: Run tests
+          name: Run PHP Unit tests and Codeclimate Coverage
           command: |
             ./cc-test-reporter before-build
             sudo vendor/bin/phpunit --coverage-clover clover.xml
