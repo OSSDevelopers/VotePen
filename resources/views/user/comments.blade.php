@@ -22,7 +22,6 @@
 	<meta name="twitter:image" content="{{ $user->avatar }}" />
 @stop
 
-
 @section('content')
 	<router-view></router-view>
 @endsection

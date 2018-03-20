@@ -22,8 +22,8 @@
         "pbmedia/laravel-ffmpeg": "^2.0",
         "predis/predis": "^1.1",
         "pusher/pusher-php-server": "^3.0",
-        "sentry/sentry": "^1.6",
-        "sentry/sentry-laravel": "^0.6.1",
+        "sentry/sentry": "^1.8.3",
+        "sentry/sentry-laravel": "^0.8.0",
         "whichbrowser/parser": "^2.0",
         "zachleigh/laravel-vue-generators": "^0.1.1"
     },
