@@ -29,7 +29,7 @@
                 <div class="item">
                     <h3>
                         <a href="http://php.net/" rel="nofollow">
-                            <img src="https://cdn.jsdelivr.net/npm/cdn-votepen@1.0.0/landing/credits/php.png" alt="PHP7">
+                            <img src="https://cdn.jsdelivr.net/npm/cdn-votepen@1.0.3/landing/credits/php.png" alt="PHP7">
                         </a>
                     </h3>
 
@@ -43,7 +43,7 @@
                 <div class="item">
                     <h3>
                         <a href="https://laravel.com/" rel="nofollow">
-                            <img src="https://cdn.jsdelivr.net/npm/cdn-votepen@1.0.0/landing/credits/laravel.png" alt="laravel">
+                            <img src="https://cdn.jsdelivr.net/npm/cdn-votepen@1.0.3/landing/credits/laravel.png" alt="laravel">
                         </a>
                     </h3>
 
@@ -61,7 +61,7 @@
                 <div class="item">
                     <h3>
                         <a href="https://vuejs.org/" rel="nofollow">
-                            <img src="https://cdn.jsdelivr.net/npm/cdn-votepen@1.0.0/landing/credits/vue.jpg" alt="vue">
+                            <img src="https://cdn.jsdelivr.net/npm/cdn-votepen@1.0.3/landing/credits/vue.jpg" alt="vue">
                         </a>
                     </h3>
 
@@ -79,7 +79,7 @@
                 <div class="item">
                     <h3>
                         <a href="http://element.eleme.io/#/en-US" rel="nofollow">
-                            <img src="https://cdn.jsdelivr.net/npm/cdn-votepen@1.0.0/landing/credits/element.jpg" alt="Element">
+                            <img src="https://cdn.jsdelivr.net/npm/cdn-votepen@1.0.3/landing/credits/element.jpg" alt="Element">
                         </a>
                     </h3>
 
@@ -97,7 +97,7 @@
                 <div class="item">
                     <h3>
                         <a href="http://www.mysql.com" rel="nofollow">
-                            <img src="https://cdn.jsdelivr.net/npm/cdn-votepen@1.0.0/landing/credits/mysql.png" alt="mysql">
+                            <img src="https://cdn.jsdelivr.net/npm/cdn-votepen@1.0.3/landing/credits/mysql.png" alt="mysql">
                         </a>
                     </h3>
 
@@ -115,7 +115,7 @@
                 <!-- <div class="item">
                     <h3>
                         <a href="https://www.elastic.co/products/elasticsearch" rel="nofollow">
-                            <img src="https://cdn.jsdelivr.net/npm/cdn-votepen@1.0.0/landing/credits/elastic.png">
+                            <img src="https://cdn.jsdelivr.net/npm/cdn-votepen@1.0.3/landing/credits/elastic.png">
                         </a>
                     </h3>
 
@@ -133,7 +133,7 @@
                 <div class="item">
                     <h3>
                         <a href="https://www.algolia.com/referrals/fb684d54/join" rel="nofollow">
-                            <img src="https://cdn.jsdelivr.net/npm/cdn-votepen@1.0.0/landing/credits/algolia.svg">
+                            <img src="https://cdn.jsdelivr.net/npm/cdn-votepen@1.0.3/landing/credits/algolia.svg">
                         </a>
                     </h3>
 
@@ -147,7 +147,7 @@
                 <div class="item">
                     <h3>
                         <a href="https://nodejs.org/en/" rel="nofollow">
-                            <img src="https://cdn.jsdelivr.net/npm/cdn-votepen@1.0.0/landing/credits/node.png" alt="nodeJS">
+                            <img src="https://cdn.jsdelivr.net/npm/cdn-votepen@1.0.3/landing/credits/node.png" alt="nodeJS">
                         </a>
                     </h3>
                     <div>
@@ -164,7 +164,7 @@
                 <div class="item">
                     <h3>
                         <a href="http://socket.io/" rel="nofollow">
-                            <img src="https://cdn.jsdelivr.net/npm/cdn-votepen@1.0.0/landing/credits/socket.png" alt="socket">
+                            <img src="https://cdn.jsdelivr.net/npm/cdn-votepen@1.0.3/landing/credits/socket.png" alt="socket">
                         </a>
                     </h3>
 
@@ -181,7 +181,7 @@
                 <div class="item">
                     <h3>
                         <a href="https://nginx.org/" rel="nofollow">
-                            <img src="https://cdn.jsdelivr.net/npm/cdn-votepen@1.0.0/landing/credits/nginx.png" alt="nginx">
+                            <img src="https://cdn.jsdelivr.net/npm/cdn-votepen@1.0.3/landing/credits/nginx.png" alt="nginx">
                         </a>
                     </h3>
 
