@@ -23,7 +23,7 @@
         "predis/predis": "^1.1",
         "pusher/pusher-php-server": "^3.0",
         "sentry/sentry": "^1.8.3",
-        "sentry/sentry-laravel": "0.8.0",
+        "sentry/sentry-laravel": "^0.6.1",
         "whichbrowser/parser": "^2.0",
         "zachleigh/laravel-vue-generators": "^0.1.1"
     },
