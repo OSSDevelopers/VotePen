@@ -125,8 +125,6 @@
 			<li>
 				<a href="mailto:press@votepen.com">Press</a>
 			</li>
-			<li class="item go-green"
-					    @click="Store.modals.feedback.show = true">Contact</li>
 		</ul>
 	</div>
 </template>
