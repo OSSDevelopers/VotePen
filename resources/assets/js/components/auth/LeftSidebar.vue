@@ -28,8 +28,9 @@
 				:href="'/@' + auth.username"
 				:class="{ 'active': activeRoute === 'profile' }"
 				class="item">
-					<i class="v-icon v-profile"
-					aria-hidden="true"></i>
+					<img :src="auth.avatar"
+					     :alt="auth.username"
+					     class="avatar">
 				</a>
 			</el-tooltip>
 
