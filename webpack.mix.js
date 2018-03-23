@@ -24,7 +24,7 @@ mix
         'pusher-js': 'Pusher'
     });
 
-// run versioning on production only
+// Run versioning on production only
 if (mix.inProduction()) {
     mix.version();
 }
