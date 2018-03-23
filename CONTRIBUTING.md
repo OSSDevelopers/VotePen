@@ -1,4 +1,3 @@
-
 # Contributing to _VotePen_
 
 ## I want to report a problem or ask a question
