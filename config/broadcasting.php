@@ -45,25 +45,25 @@ return [
 
     'connections' => [
         'echo' => [
-            'host'  => env('ECHO_HOST', 'https://echo.votepen.com'),
-            'port'  => env('ECHO_PORT', 6001),
-            'bearerToken'  => env('ECHO_BEARER_TOKEN'),
-            'app_id'       => env('ECHO_APP_ID'),
-            'auth_key'     => env('ECHO_AUTH_KEY'),
+            'driver' => 'redis',
+            'host' => env('ECHO_HOST', 'https://echo.votepen.com'),
+            'port' => env('ECHO_PORT', 6001),
+            'bearerToken' => env('ECHO_BEARER_TOKEN'),
+            'app_id' => env('ECHO_APP_ID'),
+            'auth_key' => env('ECHO_AUTH_KEY'),
         ],
-
         'pusher' => [
-            'driver'  => 'pusher',
-            'key'     => env('PUSHER_KEY'),
-            'secret'  => env('PUSHER_SECRET'),
-            'app_id'  => env('PUSHER_APP_ID'),
+            'driver' => 'pusher',
+            'key' => env('PUSHER_APP_KEY'),
+            'secret' => env('PUSHER_APP_SECRET'),
+            'app_id' => env('PUSHER_APP_ID'),
             'options' => [
-                'cluster' => env('PUSHER_CLUSTER', 'eu'),
+                'cluster' => env('PUSHER_APP_CLUSTER', 'eu'),
+                'encrypted' => true,
             ],
         ],
-
         'redis' => [
-            'driver'     => 'redis',
+            'driver' => 'redis',
             'connection' => 'default',
         ],
 
