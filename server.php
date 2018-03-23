@@ -1,7 +1,7 @@
 <?php
 
 /**
- * VotePen - Where your vote matters.
+ * VotePen - Share, upvote, and discuss the best of what is happening on the internet.
  *
  * @author   Yoginth <yoginth@zoho.com>
  */
