@@ -31,7 +31,6 @@
 - [Predis](https://packagist.org/packages/predis/predis) - Flexible and feature-complete Redis client for PHP and HHVM.
 - [Redis](https://redis.io) - Redis is an open-source in-memory database project implementing a distributed, in-memory key-value store with optional durability.
 - [Pusher PHP Server](https://packagist.org/packages/pusher/pusher-php-server) - Library for interacting with the Pusher REST API.
-- [Sentry](https://sentry.io) - Open-source error tracking that helps developers monitor and fix crashes in real time.
 - [Which Browser](https://packagist.org/packages/whichbrowser/parser) - Useragent sniffing library for PHP.
 - [Raven.JS](https://docs.sentry.io/clients/javascript) - Raven.js is the official browser JavaScript client for Sentry. It automatically reports uncaught JavaScript exceptions triggered from a browser environment.
 - [Moment Timezone](https://www.npmjs.com/package/moment-timezone) - Parse and display moments in any timezone.
@@ -56,3 +55,4 @@
 - [CMDER](https://cmder.net) - cmder is software package that provides great console experience even on Windows.
 - [GitHub](https://github.com) - GitHub is a web-based hosting service for version control using git. It is mostly used for computer code.
 - [Github Desktop](https://desktop.github.com) - Extend your GitHub workflow beyond your browser with GitHub Desktop, completely redesigned with Electron.
+- [Sentry](https://sentry.io) - Open-source error tracking that helps developers monitor and fix crashes in real time.
