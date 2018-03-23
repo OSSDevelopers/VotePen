@@ -125,10 +125,42 @@
                 We do not think contents on websites like ours, are intended for individuals under 13. Therefore, if you are under 13, you are not allowed to make an account or use our services.
             </p>
 
-            <hr>
+            <h2 class="title">
+                International Data Transfers
+            </h2>
 
             <p>
-                It is possible that we change some of our policies over time. Please note that, if you continue to use our services after we have changed our policies, it will mean your consent to our new policy.
+                We are based in the India and the information we collect is governed by Indian law. By accessing or using the Services or otherwise providing information to us, you consent to the processing, transfer and storage of information in and to the India. and other countries, where you may not have the same rights as you do under local law.
+            </p>
+
+            <p>
+                In connection with VotePen's processing of personal data received from the European Union and Switzerland, we adhere to the EU-U.S. and Swiss-U.S. Privacy Shield Program (“Privacy Shield”) and comply with its framework and principles.
+            </p>
+
+            <p>
+                For more information about the Privacy Shield principles and to view our certification, please visit the U.S. Department of Commerce’s <a href="https://www.privacyshield.gov/">Privacy Shield website.</a>
+            </p>
+
+            <p>
+                Please direct any inquiries or complaints regarding our compliance with the Privacy Shield principles to the point of contact listed in the “Contact Us” section below. If we do not resolve your complaint, you may submit your complaint free of charge to <a href="https://www.jamsadr.com/eu-us-privacy-shield">JAMS</a>. Under certain conditions specified by the Privacy Shield principles, you may also be able to invoke binding arbitration to resolve your complaint. We are subject to the investigatory and enforcement powers of the Federal Trade Commission. If we share EU or Swiss data with a third-party service provider that processes the data solely on our behalf, then we will be liable for that third party’s processing of EU or Swiss data in violation of the Privacy Shield principles, unless we can prove that we are not responsible for the event giving rise to the damage.
+            </p>
+
+            <hr>
+
+            <h2 class="title">
+                Changes
+            </h2>
+
+            <p>
+                We may change this Privacy Policy from time to time. If we do, we will let you know by revising the date at the top of the policy. If we make a change to this policy that, in our sole discretion, is material, we will provide you with additional notice (such as adding a statement to <a href="https://votepen.com/c/announcements">c/announcements</a>, the front page of the Services or sending you a notification). We encourage you to review the Privacy Policy whenever you access or use our Services or otherwise interact with us to stay informed about our information practices and the ways you can help protect your privacy. If you continue to use our Services after Privacy Policy changes go into effect, you consent to the revised policy.
+            </p>
+
+            <h2 class="title">
+                Contact Us
+            </h2>
+
+            <p>
+                If you have any questions about this Privacy Policy, please email <a href="mailto://legal@votepen.com"> legal@votepen.com</a>.
             </p>
         </section>
     </section>
