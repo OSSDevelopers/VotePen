@@ -1,9 +1,9 @@
 <?php
 
 /**
- * Laravel - A PHP Framework For Web Artisans.
+ * VotePen - Where your vote matters.
  *
- * @author   Taylor Otwell <taylor@laravel.com>
+ * @author   Yoginth <yoginth@zoho.com>
  */
 $uri = urldecode(
     parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH)
