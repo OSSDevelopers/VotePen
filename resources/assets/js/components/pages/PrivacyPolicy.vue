@@ -150,8 +150,6 @@
                 Please direct any inquiries or complaints regarding our compliance with the Privacy Shield principles to the point of contact listed in the “Contact Us” section below. If we do not resolve your complaint, you may submit your complaint free of charge to <a href="https://www.jamsadr.com/eu-us-privacy-shield">JAMS</a>. Under certain conditions specified by the Privacy Shield principles, you may also be able to invoke binding arbitration to resolve your complaint. We are subject to the investigatory and enforcement powers of the Federal Trade Commission. If we share EU or Swiss data with a third-party service provider that processes the data solely on our behalf, then we will be liable for that third party’s processing of EU or Swiss data in violation of the Privacy Shield principles, unless we can prove that we are not responsible for the event giving rise to the damage.
             </p>
 
-            <hr>
-
             <h2 class="title">
                 Changes
             </h2>
@@ -159,6 +157,8 @@
             <p>
                 We may change this Privacy Policy from time to time. If we do, we will let you know by revising the date at the top of the policy. If we make a change to this policy that, in our sole discretion, is material, we will provide you with additional notice (such as adding a statement to <a href="https://votepen.com/c/announcements">c/announcements</a>, the front page of the Services or sending you a notification). We encourage you to review the Privacy Policy whenever you access or use our Services or otherwise interact with us to stay informed about our information practices and the ways you can help protect your privacy. If you continue to use our Services after Privacy Policy changes go into effect, you consent to the revised policy.
             </p>
+
+            <hr>
 
             <h2 class="title">
                 Contact Us
