@@ -55,19 +55,17 @@
                 Information We Collect Automatically
             </h2>
 
+            <h3>Log and Usage Data</h3>
+
             <p>
-                This includes:
+                We may log information when you access and use the Services. This may include your IP address, user-agent string, browser type, operating system, device information (e.g., device name), and user interactions (e.g., voting data), the requested URL. Except for the IP address used to create your account, VotePen will delete any IP addresses collected after certain days.
             </p>
 
-            <ul>
-                <li>
-                    Your IP addresses, OS, browser type, visited pages, device information, links clicked, user interaction, requested URLs, searched keywords, etc.
-                </li>
+            <h3>Information Collected from Cookies</h3>
 
-                <li>
-                    We delete IP addresses collected after certain days. The IPs are collected to prevent cheating and other prohibited behavior.
-                </li>
-            </ul>
+            <p>
+                We may receive information from cookies, which are pieces of data your browser stores and sends back to us when making requests. We use this information to improve your experience, understand user activity, personalize content and advertisements, and improve the quality of our Services.
+            </p>
 
             <h2 class="title">
                 How We Use Information About You
@@ -109,6 +107,14 @@
 
             <p>
                 Unlike other social websites sharing your information with third parties for many reasons, VotePen is conservative about keeping your information secret. We might connect with third parties in the future but we will never share your information with them.
+            </p>
+
+            <h2 class="title">
+                Security
+            </h2>
+
+            <p>
+                We take reasonable measures to help protect information about you from loss, theft, misuse and unauthorized access, disclosure, alteration, and destruction.
             </p>
 
             <h2 class="title">
