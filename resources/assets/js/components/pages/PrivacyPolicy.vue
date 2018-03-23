@@ -21,8 +21,13 @@
         </nav>
 
         <section id="page" class="home-submissions">
+            <h2 class="title">
+                VotePen, Inc. Privacy Policy
+            </h2>
+            <h6>Effective March 23, 2018.</h6>
+
             <p>
-                This page is for all users and non-users wondering what we do with users’ information when they use our website. These policies apply to all our services.
+                We want you to understand how and why VotePen, Inc. (“VotePen,” “we” or “us”) collects, uses, and shares information about you when you access and use VotePen’s websites, mobile apps, widgets, and other online products and services (collectively, the "Services") or when you otherwise interact with us. This Privacy Policy applies to all of our Services, including those that maintain a separate Privacy Notice that incorporates this Privacy Policy by reference.
             </p>
 
             <h2 class="title">
