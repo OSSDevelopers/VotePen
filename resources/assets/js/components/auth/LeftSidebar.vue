@@ -30,7 +30,7 @@
 				class="item">
 					<img :src="auth.avatar"
 					     :alt="auth.username"
-					     class="avatar">
+					     class="avatar sidebar-profile">
 				</a>
 			</el-tooltip>
 
