@@ -8,7 +8,7 @@ sudo: false
 before_script:
   - cp .env.circle .env
   - touch database/database.sqlite
-  - curl -L http://git.io/phpenv-installer | sudo -E bash -
+  - curl -sL https://raw.githubusercontent.com/rogeriopradoj/phpenv-installer/master/bin/phpenv-installer | sudo -E bash -
   - phpenv config-rm xdebug.ini
   - phpenv install gd
   - composer self-update
