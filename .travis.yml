@@ -8,8 +8,7 @@ sudo: false
 before_script:
   - cp .env.circle .env
   - touch database/database.sqlite
-  - phpenv config-add myconfig.ini
-  - phpenv install gd
+  - pecl install gd
   - composer self-update
   - composer install --no-interaction
   - curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
