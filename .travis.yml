@@ -1,0 +1,16 @@
+language: php
+
+php:
+  - 7.1
+
+before_script:
+  - cp .env.circle .env
+  - touch database/database.sqlite
+  - composer self-update
+  - composer install --no-interaction
+  - nvm use 9.8.0
+  - php artisan key:generate
+  - npm run dev
+
+script:
+  - vendor/bin/phpunit
