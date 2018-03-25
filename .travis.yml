@@ -8,10 +8,9 @@ sudo: required
 addons:
   apt:
     packages:
-    - nasm
-    - naturaldocs
+    - libfreetype6-dev
+    - libjpeg62-turbo-dev
     - libpng-dev
-    - libz-dev
     - libjpeg-dev
     - libfreetype6-dev
     - libxpm-dev
@@ -21,10 +20,6 @@ addons:
     - libvpx-dev
     - libtiff-dev
     - libwebp-dev
-    - automake
-    - autoconf
-    - libtool
-    - html2text
 
 before_script:
   - cp .env.circle .env
