@@ -23,6 +23,7 @@ use Auth;
 use Carbon\Carbon;
 use DB;
 use Illuminate\Http\Request;
+use Embed\Embed;
 
 class SubmissionController extends Controller
 {
@@ -67,7 +68,7 @@ class SubmissionController extends Controller
             'channel_name' => ['required', 'exists:channels,name', new NotBannedFromChannel()],
             'type'         => 'required|in:link,img,text,gif',
             'title'        => 'required|string|between:7,150',
-            'url'          => ['required_if:type,link', 'url', new NotBlockedDomain()],
+            'url'          => ['required_if:type,link', 'url', 'active_url', new NotBlockedDomain()],
             'photos_id'    => 'required_if:type,img|array|max:20',
             'gif_id'       => 'required_if:type,gif|integer',
         ]);
@@ -116,7 +117,7 @@ class SubmissionController extends Controller
         } catch (\Exception $exception) {
             app('sentry')->captureException($exception);
 
-            return res(500, 'Ooops, something went wrong. We will take a look at it to fix.');
+            return res(500, 'Ooops, something went wrong.');
         }
 
         if ($request->type === 'img' || $request->type === 'gif') {
@@ -125,7 +126,7 @@ class SubmissionController extends Controller
 
         $this->firstVote($submission->id);
 
-        return new SubmissionResource(
+        return new SubmissionResource(app/Traits/Submit.php
             Submission::find($submission->id)
         );
     }
@@ -162,12 +163,18 @@ class SubmissionController extends Controller
     public function getTitleAPI(Request $request)
     {
         $this->validate($request, [
-            'url' => 'required|url',
+            'url' => 'required|url|active_url',
         ]);
+
+        try {
+            $data = Embed::create($request->url);
+        } catch (\Exception $exception) {
+            return res(500, "Ooops, we couldn't process this URL.");
+        }
 
         return response([
             'data' => [
-                'title' => $this->getTitle($request->url),
+                'title' => $data->title,
             ],
         ], 200);
     }
