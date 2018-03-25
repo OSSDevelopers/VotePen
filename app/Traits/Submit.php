@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Auth;
 use Embed\Embed;
 
 trait Submit
-{    
+{
     /**
      * Creates a unique slug for the submission.
      *
