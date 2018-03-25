@@ -5,6 +5,11 @@ php:
 
 sudo: required
 
+cache:
+  directories:
+    - $HOME/.composer/cache
+    - node_modules/
+
 addons:
   apt:
     packages:
@@ -14,7 +19,6 @@ addons:
     - libjpeg-dev
 
 before_script:
-  - sudo docker-php-ext-configure gd --with-freetype-dir=/usr/include/ --with-jpeg-dir=/usr/include/ && sudo docker-php-ext-install -j$(nproc) gd && sudo docker-php-ext-enable xdebug
   - cp .env.circle .env
   - touch database/database.sqlite
   - composer self-update
