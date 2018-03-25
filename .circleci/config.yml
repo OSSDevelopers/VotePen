@@ -66,6 +66,10 @@ jobs:
       - run: touch database/database.sqlite
       - run: php artisan key:generate
       - run: npm run dev
+      - run: php artisan view:clear
+      - run: php artisan cache:clear
+      - run: php artisan route:clear
+      - run: php artisan config:clear
 
       - run:
          name: Run Laravel Server
