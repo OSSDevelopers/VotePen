@@ -8,7 +8,7 @@
                         <!-- avatar -->
                         <div class="profile-avatar">
                             <router-link :to="'/c/' + Store.page.channel.temp.name">
-                                <img v-bind:src="Store.page.channel.temp.avatar" v-bind:alt="Store.page.channel.temp.name"/>
+                                <img class="channel-avatar" v-bind:src="Store.page.channel.temp.avatar" v-bind:alt="Store.page.channel.temp.name"/>
                             </router-link>
                         </div>
                         <!-- end avatar -->
