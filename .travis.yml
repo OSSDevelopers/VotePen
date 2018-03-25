@@ -8,10 +8,11 @@ before_script:
   - touch database/database.sqlite
   - composer self-update
   - composer install --no-interaction
-  - nvm use 9.8.0
+  - curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
   - php artisan key:generate
   - npm install
   - npm run dev
+  - php artisan serve &
 
 script:
   - vendor/bin/phpunit
