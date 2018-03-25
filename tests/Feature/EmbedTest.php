@@ -20,12 +20,12 @@ class EmbedTest extends TestCase
     public function can_fetch_title_from_external_link()
     {
         $res = $this->json('GET', '/api/links/title', [
-            'url' => 'http://votepen.tk',
+            'url' => 'https://google.com',
         ])
             ->assertStatus(200)
             ->assertJson([
                 'data' => [
-                    'title' => 'VotePen: Where your vote matters',
+                    'title' => 'Google',
                 ],
             ]);
     }
@@ -34,7 +34,7 @@ class EmbedTest extends TestCase
     public function url_must_be_a_valid_address()
     {
         $res = $this->json('GET', '/api/links/title', [
-            'url' => 'votepen.tk',
+            'url' => 'google.com',
         ])
             ->assertStatus(422)
             ->assertJson([
@@ -51,7 +51,7 @@ class EmbedTest extends TestCase
     public function url_must_be_active()
     {
         $res = $this->json('GET', '/api/links/title', [
-            'url' => 'https://without-dns-record.votepen.tk',
+            'url' => 'https://without-dns-record.google.com',
         ])
             ->assertStatus(422)
             ->assertJson([
