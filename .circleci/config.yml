@@ -56,12 +56,6 @@ jobs:
           paths:
             - ./node_modules
 
-      - run:
-          name: Setup Code Climate test-reporter
-          command: |
-            curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
-            chmod +x ./cc-test-reporter
-
       # run tests!
       - run: touch database/database.sqlite
       - run: php artisan key:generate
@@ -79,6 +73,4 @@ jobs:
       - run:
           name: Run PHP Unit tests and Codeclimate Coverage
           command: |
-            ./cc-test-reporter before-build
-            vendor/bin/phpunit --coverage-clover clover.xml
-            ./cc-test-reporter after-build --coverage-input-type clover --exit-code $?
+            vendor/bin/phpunit
