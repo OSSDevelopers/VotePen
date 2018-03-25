@@ -3,9 +3,13 @@ language: php
 php:
   - 7.1
 
+sudo: false
+
 before_script:
   - cp .env.circle .env
   - touch database/database.sqlite
+  - phpenv config-rm xdebug.ini
+  - pecl install gd
   - composer self-update
   - composer install --no-interaction
   - curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
