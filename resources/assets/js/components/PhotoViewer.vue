@@ -13,6 +13,7 @@
 				<el-button round plain
 				           type="info"
 				           size="mini"
+                           target="_blank"
 				           icon="el-icon-download">
 					Download photo
 				</el-button>
