@@ -7,7 +7,7 @@ VotePen is a Laravel application that runs on the following software:
 - MySQL 5.7+ (to use mariaDB, you must modify `json` type migration columns to `blob` by running `sed -i 's/json(/binary(/g' *` inside the database/migrations/ directory in Linux)
 - PHP 7.1+
 - Redis 3.0+
-- Git
+- [Git](https://git-scm.com)
 - [Pusher](https://pusher.com/) (votepen.com uses [laravel-echo-server](https://github.com/tlaverdure/laravel-echo-server) on production server)
 - [Algolia Search](https://www.algolia.com/referrals/fb684d54/join/)
 
