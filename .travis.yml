@@ -12,16 +12,9 @@ addons:
     - libjpeg62-turbo-dev
     - libpng-dev
     - libjpeg-dev
-    - libfreetype6-dev
-    - libxpm-dev
-    - libx11-dev
-    - libxt-dev
-    - libfontconfig-dev
-    - libvpx-dev
-    - libtiff-dev
-    - libwebp-dev
 
 before_script:
+  - sudo docker-php-ext-configure gd --with-freetype-dir=/usr/include/ --with-jpeg-dir=/usr/include/ && sudo docker-php-ext-install -j$(nproc) gd && sudo docker-php-ext-enable xdebug
   - cp .env.circle .env
   - touch database/database.sqlite
   - composer self-update
