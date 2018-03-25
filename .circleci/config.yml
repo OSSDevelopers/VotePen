@@ -6,9 +6,6 @@ jobs:
       - image: circleci/php:7.1-cli
       - image: redis
 
-    environment:
-      CC_TEST_REPORTER_ID: 412c4da52cffde5bdb35f533234663ddde70e910094a727b70ba66fedc0fda24
-
     working_directory: ~/laravel
 
     steps:
@@ -72,5 +69,5 @@ jobs:
 
       - run:
           name: Run PHP Unit tests and Codeclimate Coverage
-          command: |
+          command:
             vendor/bin/phpunit
