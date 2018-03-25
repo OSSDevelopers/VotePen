@@ -337,7 +337,7 @@ export default {
 
         /**
          * Used for setting the values using API. This will get extended in the future to support
-         * VotePen sharing buttons! But for now we are just going to use it for setting the default
+         * voten sharing buttons! But for now we are just going to use it for setting the default
          * channel so when clicked on submit in the channels, users won't have to set channel.
          *
          * @return
@@ -429,7 +429,7 @@ export default {
         },
 
         /**
-         * Fetches the title from the external URL (through VotePen's proxy server which we contact via API)
+         * Fetches the title from the external URL (through Voten's proxy server which we contact via API)
          *
          * @param string typed
          * @return void
