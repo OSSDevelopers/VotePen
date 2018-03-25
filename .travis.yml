@@ -5,14 +5,12 @@ php:
 
 before_script:
   - cp .env.circle .env
-  - npm install n -g
-  - n 9.8.0
   - touch database/database.sqlite
   - composer self-update
   - composer install --no-interaction
   - nvm use 9.8.0
   - php artisan key:generate
-  - npm run dev
+  - npm install
 
 script:
   - vendor/bin/phpunit
