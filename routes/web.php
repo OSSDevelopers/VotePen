@@ -94,11 +94,6 @@ Route::get('/emails/announcement/preview', 'EmailsController@preview');
 Route::post('/ssh/flush-all', 'SshController@flushAll');
 Route::post('/ssh/cache-clear', 'SshController@clearCache');
 
-// Submission control
-Route::get('/embed/link', 'EmbedController@link');
-Route::get('/embed/title', 'EmbedController@title');
-Route::get('/link-submission', 'EmbedController@linkSubmission');
-
 // Passport
 // Route::get('/apps', 'OAuthController@show');
 
