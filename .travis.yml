@@ -11,6 +11,7 @@ before_script:
   - nvm use 9.8.0
   - php artisan key:generate
   - npm install
+  - npm run dev
 
 script:
   - vendor/bin/phpunit
