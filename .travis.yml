@@ -5,10 +5,30 @@ php:
 
 sudo: false
 
+addons:
+  apt:
+    packages:
+    - nasm
+    - naturaldocs
+    - libpng-dev
+    - libz-dev
+    - libjpeg-dev
+    - libfreetype6-dev
+    - libxpm-dev
+    - libx11-dev
+    - libxt-dev
+    - libfontconfig-dev
+    - libvpx-dev
+    - libtiff-dev
+    - libwebp-dev
+    - automake
+    - autoconf
+    - libtool
+    - html2text
+
 before_script:
   - cp .env.circle .env
   - touch database/database.sqlite
-  - pecl install gd
   - composer self-update
   - composer install --no-interaction
   - curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
